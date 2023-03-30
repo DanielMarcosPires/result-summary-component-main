@@ -12,6 +12,7 @@
 }
 @media screen and (max-width:750px) {
     .Card{
+        overflow: visible;
         grid-template: 
         'rs rs'
         'st st';
