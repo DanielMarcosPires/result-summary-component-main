@@ -21,7 +21,7 @@ export default function Status({status,botao}:any) {
   
   return (
     <section className='Status'>
-        <h2>Sumario</h2>
+        <h2>Summary</h2>
         <ul>{jsonDados.map((itens,i)=>
         <label htmlFor={`s${i}`} style={{background:itens.secundario}} key={`chave${i}`} className='StatusItem'>
               <div style={{color:itens.primario}}><img src={itens.icon} alt={`ícone ${i}`} /> {itens.category}</div>  <span className=''><input onChange={(e:any)=>{dados(e, i);
